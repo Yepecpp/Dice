@@ -12,48 +12,87 @@
     <div class="dice-container">
         <div class="dice" id="dice">
             <div class="front" id="d-1" >
-                <span>1</span>
+                <span></span>
             </div>
             <div class="back"id="d-2">
-                <span>2</span>
+                <span class="d-top d-left"></span>
+                <span class="d-mid d-center"></span>
             </div>
             <div class="top"id="d-3">
-                <span>3</span>
+                <span class="d-top d-left"></span>
+                <span class="d-mid d-center"></span>
+                <span class="d-bottom d-right"></span>
             </div>
             <div class="left"id="d-4">
-                <span>4</span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div class="right"id="d-5">
-                <span>5</span>
+                <span class="d-top d-left"></span>
+                <span class="d-top d-right"></span>
+                <span class="d-mid d-center"></span>
+                <span class="d-bottom d-left"></span>
+                <span class="d-bottom d-right"></span>
             </div>
             <div class="bottom"id="d-6">
-                <span>6</span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </div>
-    <div class="faces-container">
-        <div class="dice">
-            <div class="front" id="1">
-                <span>1</span>
+ <div class="functions">
+     <div class="faces-container">
+         <h1> Selecciona las Caras</h1>
+         <div class="dice" id="f-dice">
+             <div class="front" id="1" >
+                 <span></span>
+                </div>
+                <div class="back" id="2">
+                    <span class="d-top d-left"></span>
+                <span class="d-mid d-center"></span>
             </div>
-            <div class="back"id="2">
-                <span>2</span>
+            <div class="top" id="3">
+                <span class="d-top d-left"></span>
+                <span class="d-mid d-center"></span>
+                <span class="d-bottom d-right"></span>
             </div>
-            <div class="top"id="3">
-                <span>3</span>
-            </div>
-            <div class="left"id="4">
-                <span>4</span>
+            <div class="left" id="4">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div class="right"id="5">
-                <span>5</span>
+                <span class="d-top d-left"></span>
+                <span class="d-top d-right"></span>
+                <span class="d-mid d-center"></span>
+                <span class="d-bottom d-left"></span>
+                <span class="d-bottom d-right"></span>
             </div>
-            <div class="bottom"id="6">
-                <span>6</span>
-            </div>
+            <div class="bottom" id="6">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </div>
+    <div class="buttons-container">
+        <button class="btn" id="batear">Batear</button>
+        <button class="btn" id="reset">Reset</button>
+    </div>
+    <audio id="audio" >
+        <source src="music/dice.mp3" type="audio/mpeg">
+    </audio>
+</div>
     <script defer type="text/javascript"src="index.js"></script>
 </body>
 </html>
